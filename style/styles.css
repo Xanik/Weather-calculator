@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Georgia";
+	font-size: 16px;
+	background-color: #444;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.module-active {
+	opacity: 1 !important;
+	pointer-events: auto !important;
+}
+
+#convert {
+	position: absolute;
+	display: table;
+	box-sizing: border-box;
+	padding: 54px 54px;
+	top: 20vh;
+	background-color: #f3f3f3;
+	border-radius: 3px;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+#convert .header {
+	position: relative;
+	display: block;
+	font-size: 24px;
+	margin-bottom: 36px;
+}
+
+#convert input {
+	display: block;
+	outline: none;
+	border: none;
+	padding: 24PX;
+	width: 78%;
+	font-size: 18px;
+	margin-bottom: 24px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+}
+
+#convert .submit {
+	box-shadow: none;
+	width: 80%;
+	margin-top: 4px;
+}
